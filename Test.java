@@ -11,7 +11,7 @@ public class Test {
 
         ArrayList<Banknot> trainData_AL = new ArrayList<Banknot>();       //train_data içerisindekileri tutmak için ArrayList
 
-        String filePath = "C:\\Users\\hümeyra şahin\\IdeaProjects\\KNNAlgorithm\\src\\data_banknote_authentication.txt";
+        String filePath = "data_banknote_authentication.txt";
         trainData_AL = readFİle(filePath, trainData_AL);       //readFile() dosyayı okuyor ve okuduğu değerlerle nesne oluşturup
         // ArrayListe ekliyor
 
@@ -47,7 +47,7 @@ public class Test {
 
 
         ArrayList<Banknot> testData_AL = new ArrayList<Banknot>();     //test data içerisindekileri tutmak için arraylist
-        String filePath2 = "C:\\Users\\hümeyra şahin\\IdeaProjects\\KNNAlgorithm\\src\\data_test.txt";
+        String filePath2 = "data_test.txt";
 
 
         testData_AL = readFİle(filePath2, testData_AL);
